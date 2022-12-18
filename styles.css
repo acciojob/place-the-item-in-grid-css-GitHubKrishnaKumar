@@ -1,10 +1,10 @@
 .holder{
     display: grid;
-    grid-template-columns: repeat(2, 50px);
+    grid-template-columns: repeat(2, 200px);
     
 }
 .box{
-    height: 50px;
+    height: 200px;
 }
 .holder :nth-child(1){
     background-color: lime;
