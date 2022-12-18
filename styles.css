@@ -1,2 +1,20 @@
-
-/* Your CSS Code here. */
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    
+}
+.box{
+    height: 50px;
+}
+.holder :nth-child(1){
+    background-color: lime;
+}
+.holder :nth-child(2){
+    background-color: yellow;
+}
+.holder :nth-child(3){
+    background-color: rgb(81, 81, 7);
+}
+.holder :nth-child(4){
+    background-color: rgb(8, 110, 21);
+}
